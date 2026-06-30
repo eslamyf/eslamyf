@@ -7,7 +7,7 @@
 
 <div align="center">
 
-# 👨‍💻 Islam Yasser
+# 👨‍💻 Eslam Yasser
 
 🎓 Student at the Faculty of Computers and Information – Qena University  
 🧠 Focused on mastering **C++**, **Data Structures**, **OOP**, and **Problem Solving**  
