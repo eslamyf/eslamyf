@@ -1,27 +1,61 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#07111f"/>
-      <stop offset="1" stop-color="#111b35"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="50%" stop-color="#0b162c"/>
+      <stop offset="100%" stop-color="#111d3d"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" x2="1">
-      <stop offset="0" stop-color="#22d3ee"/>
-      <stop offset="1" stop-color="#818cf8"/>
+    <linearGradient id="cyan-indigo" x1="0" x2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
     </linearGradient>
-    <linearGradient id="text-gradient" x1="0" x2="1">
-      <stop offset="0" stop-color="#f8fafc"/>
-      <stop offset="1" stop-color="#e2e8f0"/>
-    </linearGradient>
+    <radialGradient id="glow1"><stop offset="0%" stop-color="#0ea5e9" stop-opacity=".45"/><stop offset="100%" stop-color="#0ea5e9" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow2"><stop offset="0%" stop-color="#8b5cf6" stop-opacity=".4"/><stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#38bdf8" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
   </defs>
-  <rect width="1200" height="300" fill="url(#background)"/>
-  <path d="M820 0h380v300H820z" fill="#121d39"/>
-  <path d="M820 0v300M900 0v300M980 0v300M1060 0v300M1140 0v300M820 60h380M820 140h380M820 220h380" stroke="#94a3b8" stroke-opacity=".1"/>
-  <circle cx="1010" cy="150" r="108" fill="none" stroke="url(#accent)" stroke-width="2" stroke-opacity=".5"/>
-  <circle cx="1010" cy="150" r="80" fill="none" stroke="#94a3b8" stroke-width="1" stroke-opacity=".25"/>
-  <path d="M950 150h120M1010 90v120" stroke="url(#accent)" stroke-width="2" stroke-linecap="round"/>
-  <circle cx="1010" cy="150" r="8" fill="#22d3ee"/>
-  <path d="M72 68h56" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
-  <text x="72" y="122" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="600" letter-spacing="3">HELLO, I'M</text>
-  <text x="68" y="196" fill="url(#text-gradient)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="64" font-weight="800">Eslam Yasser</text>
-  <text x="72" y="246" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="500">Full-Stack Developer &bull; MEAN Stack &amp; React &bull; Tech Instructor</text>
+  <style>
+    @keyframes float1 { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-8px); } }
+    @keyframes float2 { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(8px); } }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    @keyframes shimmer { 0% { width: 0px; opacity: 0.3; } 50% { width: 440px; opacity: 1; } 100% { width: 0px; opacity: 0.3; } }
+    .f1 { animation: float1 5s ease-in-out infinite; }
+    .f2 { animation: float2 6s ease-in-out infinite; }
+    .blink { animation: blink 1s step-end infinite; }
+    .shimmer-bar { animation: shimmer 5s ease-in-out infinite; }
+    .mono { font-family: 'Fira Code', Consolas, Monaco, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+  </style>
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  <circle class="f1" cx="180" cy="90" r="150" fill="url(#glow1)"/>
+  <circle class="f2" cx="1020" cy="210" r="160" fill="url(#glow2)"/>
+  <g class="mono f2" fill="#38bdf8" fill-opacity="0.16" font-size="22" font-weight="bold">
+    <text x="80" y="260">&lt;/&gt;</text>
+    <text x="1080" y="70">{ ; }</text>
+    <text x="960" y="270">=&gt;</text>
+    <text x="320" y="45">[ ... ]</text>
+  </g>
+  <path d="M 72 60 h 60" stroke="url(#cyan-indigo)" stroke-width="4" stroke-linecap="round"/>
+  <text class="mono" x="72" y="105" fill="#7dd3fc" font-size="16" font-weight="600" letter-spacing="3">&gt; HELLO WORLD, I'M<tspan class="blink" fill="#38bdf8">_</tspan></text>
+  <text class="sans" x="68" y="180" fill="#f8fafc" font-size="62" font-weight="800" letter-spacing="-1">Eslam Yasser</text>
+  <rect class="shimmer-bar" x="72" y="200" height="3" rx="2" fill="url(#cyan-indigo)"/>
+  <text class="sans" x="72" y="245" fill="#94a3b8" font-size="20" font-weight="500">
+    Full-Stack Developer <tspan fill="#38bdf8">&#8226;</tspan> MEAN Stack &amp; React <tspan fill="#818cf8">&#8226;</tspan> Tech Instructor
+  </text>
+  <g transform="translate(860, 48)">
+    <rect width="270" height="195" rx="14" fill="#07111f" fill-opacity="0.85" stroke="#38bdf8" stroke-opacity="0.25" stroke-width="1.5"/>
+    <circle cx="24" cy="22" r="5" fill="#ef4444" fill-opacity="0.8"/>
+    <circle cx="40" cy="22" r="5" fill="#eab308" fill-opacity="0.8"/>
+    <circle cx="56" cy="22" r="5" fill="#22c55e" fill-opacity="0.8"/>
+    <path d="M 0 38 h 270" stroke="#38bdf8" stroke-opacity="0.15" stroke-width="1"/>
+    <text class="mono" x="20" y="72" fill="#64748b" font-size="13">const developer = {</text>
+    <text class="mono" x="34" y="100" fill="#94a3b8" font-size="13">role: <tspan fill="#38bdf8">'Full-Stack'</tspan>,</text>
+    <text class="mono" x="34" y="128" fill="#94a3b8" font-size="13">stack: <tspan fill="#818cf8">['MEAN', 'React']</tspan>,</text>
+    <text class="mono" x="34" y="156" fill="#94a3b8" font-size="13">mindset: <tspan fill="#4ade80">'Clean Code'</tspan>,</text>
+    <text class="mono" x="34" y="184" fill="#94a3b8" font-size="13">status: <tspan fill="#f59e0b">'Available'</tspan></text>
+    <text class="mono" x="20" y="210" fill="#64748b" font-size="13">};</text>
+  </g>
 </svg>

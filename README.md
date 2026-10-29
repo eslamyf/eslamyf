@@ -1,21 +1,32 @@
 <div align="center">
 
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:6366f1,100:0284c7&height=120&section=header" width="100%" alt="Header Wave" />
+
   <img src="assets/banner.svg" alt="Eslam Yasser — Full-Stack Developer" width="100%" />
 
+  <br/><br/>
+
   <a href="https://eslam-yasser-portfolio.vercel.app/">
-    <img src="assets/avatar.svg" alt="Eslam Yasser" width="160" />
+    <img src="assets/avatar.svg" alt="Eslam Yasser" width="170" />
   </a>
 
-  <h3>Computer Science Student &bull; Full-Stack Developer &bull; Web Development Instructor</h3>
+  <br/><br/>
+
+  <!-- Interactive Typing Animation -->
+  <a href="https://eslam-yasser-portfolio.vercel.app/">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Hi+there+%F0%9F%91%8B+I'm+Eslam+Yasser;Full-Stack+Engineer+(MEAN+%26+React);Tech+Instructor+%40+Support+Web+Program;Architecting+Clean%2C+Scalable+Web+Systems;Building+Modern+APIs+%26+High-Performance+UIs" alt="Typing Animation" />
+  </a>
+
+  <p><b>Computer Science Student &bull; Full-Stack Developer &bull; Web Development Instructor</b></p>
   <p><i>Crafting scalable web systems with clean architecture, robust APIs, and modern UI engineering.</i></p>
 
   <p>
-    <a href="https://eslam-yasser-portfolio.vercel.app/"><img src="assets/icons/globe.svg" height="24" alt="Portfolio" /></a>&nbsp;&nbsp;
-    <a href="https://www.linkedin.com/in/eslam-yasser-a57435353"><img src="assets/icons/linkedin.svg" height="24" alt="LinkedIn" /></a>&nbsp;&nbsp;
-    <a href="https://github.com/eslamyf"><img src="assets/icons/github.svg" height="24" alt="GitHub" /></a>&nbsp;&nbsp;
-    <a href="https://codeforces.com/profile/eslam_yasser_fawzi"><img src="assets/icons/chart-simple.svg" height="24" alt="Codeforces" /></a>&nbsp;&nbsp;
-    <a href="mailto:eslam9076460@gmail.com"><img src="assets/icons/envelope.svg" height="24" alt="Email" /></a>&nbsp;&nbsp;
-    <img src="assets/icons/location-dot.svg" height="24" alt="Qena, Egypt" />
+    <a href="https://eslam-yasser-portfolio.vercel.app/"><img src="assets/icons/globe.svg" height="26" alt="Portfolio" /></a>&nbsp;&nbsp;
+    <a href="https://www.linkedin.com/in/eslam-yasser-a57435353"><img src="assets/icons/linkedin.svg" height="26" alt="LinkedIn" /></a>&nbsp;&nbsp;
+    <a href="https://github.com/eslamyf"><img src="assets/icons/github.svg" height="26" alt="GitHub" /></a>&nbsp;&nbsp;
+    <a href="https://codeforces.com/profile/eslam_yasser_fawzi"><img src="assets/icons/chart-simple.svg" height="26" alt="Codeforces" /></a>&nbsp;&nbsp;
+    <a href="mailto:eslam9076460@gmail.com"><img src="assets/icons/envelope.svg" height="26" alt="Email" /></a>&nbsp;&nbsp;
+    <img src="assets/icons/location-dot.svg" height="26" alt="Qena, Egypt" />
   </p>
 
   <img src="https://komarev.com/ghpvc/?username=eslamyf&label=Profile%20Views&color=0284c7&style=flat-square" alt="Profile Views" />
@@ -54,6 +65,12 @@
 <br/>
 
 ## 🛠️ Skills &amp; Tech Stack
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=angular,react,ts,js,nodejs,express,mongodb,cpp,python,bootstrap,tailwind,html,css,git,github,postman&perline=8" alt="Tech Stack Icons" />
+</div>
+
+<br/>
 
 <table>
   <tr>
@@ -103,39 +120,66 @@
 
 ## 🚀 Featured Projects
 
-<p>Selected full-stack web applications with live deployments:</p>
+<p>High-impact, production-ready web applications with live deployments:</p>
 
 <table>
   <tr>
-    <td width="50%" valign="top" align="center">
-      <a href="https://aqario-luxe.vercel.app/" target="_blank">
-        <img src="assets/projects/aqario.jpg" alt="Aqario Luxe Preview" width="100%" />
-      </a>
-      <br/><br/>
-      <h3 align="left">🏡 <a href="https://aqario-luxe.vercel.app/">Aqario Luxe</a></h3>
-      <p align="left">Comprehensive real estate marketplace featuring dynamic property listings, advanced search filters, secure authentication, and RESTful backend APIs.</p>
-      <p align="left">
-        <b>Tech Stack:</b> <code>Angular</code> &bull; <code>Node.js</code> &bull; <code>Express.js</code> &bull; <code>MongoDB</code>
-      </p>
-      <p align="center">
-        <a href="https://aqario-luxe.vercel.app/"><img src="https://img.shields.io/badge/🌐_Live_Demo-0ea5e9?style=for-the-badge" alt="Live Demo" /></a>&nbsp;
-        <a href="https://github.com/eslamyf/aqario-luxe-web"><img src="https://img.shields.io/badge/💻_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository" /></a>
-      </p>
+    <td width="50%" valign="top">
+      <div align="center">
+        <a href="https://aqario-luxe.vercel.app/" target="_blank">
+          <img src="assets/projects/aqario.jpg" alt="Aqario Luxe Screenshot" width="100%" />
+        </a>
+      </div>
+      <br/>
+      <div align="left">
+        <h3>🏡 <a href="https://aqario-luxe.vercel.app/">Aqario Luxe</a></h3>
+        <p>A full-stack property marketplace engineered with the MEAN stack, featuring intelligent catalog filtering, dynamic property listings, secure user authentication, and responsive UI architecture.</p>
+        <p><b>✨ Key Highlights:</b></p>
+        <ul>
+          <li>Structured MongoDB data models &amp; indexing</li>
+          <li>RESTful API with JWT authentication &amp; role guards</li>
+          <li>Component-driven Angular client with reactive forms</li>
+        </ul>
+        <p>
+          <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white" alt="Angular" />
+          <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node" />
+          <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
+          <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TS" />
+        </p>
+        <div align="center">
+          <a href="https://aqario-luxe.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/🚀_Live_Demo-0284c7?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>&nbsp;
+          <a href="https://github.com/eslamyf/aqario-luxe-web" target="_blank"><img src="https://img.shields.io/badge/📂_Repository-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="Repo" /></a>
+        </div>
+      </div>
     </td>
-    <td width="50%" valign="top" align="center">
-      <a href="https://eslam-yasser-portfolio.vercel.app/" target="_blank">
-        <img src="assets/projects/portfolio.jpg" alt="Personal Portfolio Preview" width="100%" />
-      </a>
-      <br/><br/>
-      <h3 align="left">⚡ <a href="https://eslam-yasser-portfolio.vercel.app/">Personal Portfolio</a></h3>
-      <p align="left">Modern, high-performance developer portfolio showcasing engineering projects, interactive design, technical skills, and educational background.</p>
-      <p align="left">
-        <b>Tech Stack:</b> <code>React</code> &bull; <code>Vite</code> &bull; <code>Tailwind CSS</code> &bull; <code>JavaScript</code>
-      </p>
-      <p align="center">
-        <a href="https://eslam-yasser-portfolio.vercel.app/"><img src="https://img.shields.io/badge/🌐_Live_Demo-0ea5e9?style=for-the-badge" alt="Live Demo" /></a>&nbsp;
-        <a href="https://github.com/eslamyf/eslam-yasser-portfolio"><img src="https://img.shields.io/badge/💻_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository" /></a>
-      </p>
+    <td width="50%" valign="top">
+      <div align="center">
+        <a href="https://eslam-yasser-portfolio.vercel.app/" target="_blank">
+          <img src="assets/projects/portfolio.jpg" alt="Portfolio Screenshot" width="100%" />
+        </a>
+      </div>
+      <br/>
+      <div align="left">
+        <h3>⚡ <a href="https://eslam-yasser-portfolio.vercel.app/">Personal Portfolio</a></h3>
+        <p>A modern, high-performance developer portfolio built with React and Vite, showcasing engineering projects, interactive UI elements, and a clean dark aesthetic.</p>
+        <p><b>✨ Key Highlights:</b></p>
+        <ul>
+          <li>Ultra-fast Vite build tooling &amp; HMR</li>
+          <li>Modular component architecture with custom React hooks</li>
+          <li>Fluid responsive layouts &amp; accessible navigation</li>
+        </ul>
+        <p>
+          <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+          <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
+          <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind" />
+          <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JS" />
+        </p>
+        <div align="center">
+          <a href="https://eslam-yasser-portfolio.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/🚀_Live_Demo-0284c7?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>&nbsp;
+          <a href="https://github.com/eslamyf/eslam-yasser-portfolio" target="_blank"><img src="https://img.shields.io/badge/📂_Repository-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="Repo" /></a>
+        </div>
+      </div>
     </td>
   </tr>
 </table>
@@ -214,7 +258,7 @@
 ## 📈 GitHub Activity
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=eslamyf&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=eslamyf&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=f59e0b" alt="GitHub Streak" />
   <br/><br/>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eslamyf/eslamyf/output/github-snake-dark.svg" />
@@ -235,4 +279,6 @@
     <a href="https://eslam-yasser-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Live_Portfolio-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   </p>
   <sub>Designed &amp; Built with care &bull; Qena, Egypt</sub>
+  <br/><br/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:6366f1,100:0284c7&height=100&section=footer" width="100%" alt="Footer Wave" />
 </div>
