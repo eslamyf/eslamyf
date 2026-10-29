@@ -2,7 +2,7 @@
 
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:6366f1,100:0284c7&height=120&section=header" width="100%" alt="Header Wave" />
 
-  <img src="assets/banner.svg" alt="Eslam Yasser — Full-Stack Developer" width="100%" />
+  <img src="assets/hero-banner.svg" alt="Eslam Yasser — Full-Stack Developer" width="100%" />
 
   <br/><br/>
 

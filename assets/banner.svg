@@ -1,51 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#07111f"/>
       <stop offset="50%" stop-color="#0b162c"/>
       <stop offset="100%" stop-color="#111d3d"/>
     </linearGradient>
-    <linearGradient id="cyan-indigo" x1="0" x2="1">
+    <linearGradient id="cyan-indigo" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8"/>
       <stop offset="50%" stop-color="#818cf8"/>
       <stop offset="100%" stop-color="#c084fc"/>
     </linearGradient>
-    <radialGradient id="glow1"><stop offset="0%" stop-color="#0ea5e9" stop-opacity=".45"/><stop offset="100%" stop-color="#0ea5e9" stop-opacity="0"/></radialGradient>
-    <radialGradient id="glow2"><stop offset="0%" stop-color="#8b5cf6" stop-opacity=".4"/><stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow1" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="80%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#38bdf8" stroke-opacity="0.06" stroke-width="1"/>
     </pattern>
   </defs>
   <style>
-    @keyframes float1 { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-8px); } }
-    @keyframes float2 { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(8px); } }
+    @keyframes float1 { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-6px); } }
+    @keyframes float2 { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(6px); } }
     @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
-    @keyframes shimmer { 0% { width: 0px; opacity: 0.3; } 50% { width: 440px; opacity: 1; } 100% { width: 0px; opacity: 0.3; } }
+    @keyframes shimmer { 0%, 100% { opacity: 0.4; } 50% { opacity: 1; } }
     .f1 { animation: float1 5s ease-in-out infinite; }
     .f2 { animation: float2 6s ease-in-out infinite; }
     .blink { animation: blink 1s step-end infinite; }
-    .shimmer-bar { animation: shimmer 5s ease-in-out infinite; }
+    .shimmer-bar { animation: shimmer 3s ease-in-out infinite; }
     .mono { font-family: 'Fira Code', Consolas, Monaco, monospace; }
     .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
   </style>
-  <rect width="1200" height="300" fill="url(#bg)"/>
-  <rect width="1200" height="300" fill="url(#grid)"/>
-  <circle class="f1" cx="180" cy="90" r="150" fill="url(#glow1)"/>
-  <circle class="f2" cx="1020" cy="210" r="160" fill="url(#glow2)"/>
+  <rect width="1200" height="280" fill="url(#bg)"/>
+  <rect width="1200" height="280" fill="url(#grid)"/>
+  <circle class="f1" cx="180" cy="80" r="140" fill="url(#glow1)"/>
+  <circle class="f2" cx="1020" cy="200" r="150" fill="url(#glow2)"/>
   <g class="mono f2" fill="#38bdf8" fill-opacity="0.16" font-size="22" font-weight="bold">
-    <text x="80" y="260">&lt;/&gt;</text>
-    <text x="1080" y="70">{ ; }</text>
-    <text x="960" y="270">=&gt;</text>
+    <text x="80" y="240">&lt;/&gt;</text>
+    <text x="1080" y="65">{ ; }</text>
+    <text x="960" y="250">=&gt;</text>
     <text x="320" y="45">[ ... ]</text>
   </g>
-  <path d="M 72 60 h 60" stroke="url(#cyan-indigo)" stroke-width="4" stroke-linecap="round"/>
-  <text class="mono" x="72" y="105" fill="#7dd3fc" font-size="16" font-weight="600" letter-spacing="3">&gt; HELLO WORLD, I'M<tspan class="blink" fill="#38bdf8">_</tspan></text>
-  <text class="sans" x="68" y="180" fill="#f8fafc" font-size="62" font-weight="800" letter-spacing="-1">Eslam Yasser</text>
-  <rect class="shimmer-bar" x="72" y="200" height="3" rx="2" fill="url(#cyan-indigo)"/>
-  <text class="sans" x="72" y="245" fill="#94a3b8" font-size="20" font-weight="500">
-    Full-Stack Developer <tspan fill="#38bdf8">&#8226;</tspan> MEAN Stack &amp; React <tspan fill="#818cf8">&#8226;</tspan> Tech Instructor
+  <path d="M 72 55 h 60" stroke="url(#cyan-indigo)" stroke-width="4" stroke-linecap="round"/>
+  <text class="mono" x="72" y="98" fill="#7dd3fc" font-size="15" font-weight="600" letter-spacing="3">&gt; HELLO WORLD, I'M<tspan class="blink" fill="#38bdf8">_</tspan></text>
+  <text class="sans" x="68" y="168" fill="#f8fafc" font-size="58" font-weight="800" letter-spacing="-1">Eslam Yasser</text>
+  <rect class="shimmer-bar" x="72" y="188" width="340" height="3" rx="2" fill="url(#cyan-indigo)"/>
+  <text class="sans" x="72" y="230" fill="#94a3b8" font-size="19" font-weight="500">
+    Full-Stack Developer &#8226; MEAN Stack &amp; React &#8226; Tech Instructor
   </text>
-  <g transform="translate(860, 48)">
+  <g transform="translate(860, 40)">
     <rect width="270" height="195" rx="14" fill="#07111f" fill-opacity="0.85" stroke="#38bdf8" stroke-opacity="0.25" stroke-width="1.5"/>
     <circle cx="24" cy="22" r="5" fill="#ef4444" fill-opacity="0.8"/>
     <circle cx="40" cy="22" r="5" fill="#eab308" fill-opacity="0.8"/>
