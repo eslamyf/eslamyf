@@ -1,194 +1,244 @@
 <div align="center">
+  
+<!-- Animated Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=300&section=header&text=Eslam%20Yasser&fontSize=80&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20Tech%20Instructor&descAlignY=51&descSize=20&animation=twinkling" width="100%" alt="Eslam Yasser Banner" />
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:6366f1,100:0284c7&height=120&section=header" width="100%" alt="Header Wave" />
+<!-- Profile Image with Border -->
+<a href="https://eslam-yasser-portfolio.vercel.app/">
+  <img src="assets/avatar.svg" alt="Eslam Yasser" width="200" />
+</a>
 
-  <img src="assets/hero-banner.svg" alt="Eslam Yasser — Full-Stack Developer" width="100%" />
+<br/><br/>
 
-  <br/><br/>
+<!-- Typing Animation -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=650&lines=Full-Stack+Web+Developer+%F0%9F%92%BB;MEAN+Stack+%26+React+Engineer+%F0%9F%8C%90;Web+Development+Instructor+%F0%9F%91%A8%E2%80%8D%F0%9F%8F%AB;Clean+Architecture+%26+APIs+%E2%9C%A8;Always+Learning+New+Technologies+%F0%9F%9A%80" alt="Typing SVG" /></a>
 
-  <a href="https://eslam-yasser-portfolio.vercel.app/">
-    <img src="assets/avatar.svg" alt="Eslam Yasser" width="170" />
-  </a>
+<!-- Social Badges -->
+<p>
+  <a href="https://eslam-yasser-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Live_Portfolio-00ff41?style=for-the-badge&logo=vercel&logoColor=black" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/eslam-yasser-a57435353"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/eslamyf"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://codeforces.com/profile/eslam_yasser_fawzi"><img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces" /></a>
+  <a href="mailto:eslam9076460@gmail.com"><img src="https://img.shields.io/badge/Email-00ff41?style=for-the-badge&logo=gmail&logoColor=black" alt="Email" /></a>
+</p>
 
-  <br/><br/>
-
-  <!-- Interactive Typing Animation -->
-  <a href="https://eslam-yasser-portfolio.vercel.app/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Hi+there+%F0%9F%91%8B+I'm+Eslam+Yasser;Full-Stack+Engineer+(MEAN+%26+React);Tech+Instructor+%40+Support+Web+Program;Architecting+Clean%2C+Scalable+Web+Systems;Building+Modern+APIs+%26+High-Performance+UIs" alt="Typing Animation" />
-  </a>
-
-  <p><b>Computer Science Student &bull; Full-Stack Developer &bull; Web Development Instructor</b></p>
-  <p><i>Crafting scalable web systems with clean architecture, robust APIs, and modern UI engineering.</i></p>
-
-  <p>
-    <a href="https://eslam-yasser-portfolio.vercel.app/"><img src="assets/icons/globe.svg" height="26" alt="Portfolio" /></a>&nbsp;&nbsp;
-    <a href="https://www.linkedin.com/in/eslam-yasser-a57435353"><img src="assets/icons/linkedin.svg" height="26" alt="LinkedIn" /></a>&nbsp;&nbsp;
-    <a href="https://github.com/eslamyf"><img src="assets/icons/github.svg" height="26" alt="GitHub" /></a>&nbsp;&nbsp;
-    <a href="https://codeforces.com/profile/eslam_yasser_fawzi"><img src="assets/icons/chart-simple.svg" height="26" alt="Codeforces" /></a>&nbsp;&nbsp;
-    <a href="mailto:eslam9076460@gmail.com"><img src="assets/icons/envelope.svg" height="26" alt="Email" /></a>&nbsp;&nbsp;
-    <img src="assets/icons/location-dot.svg" height="26" alt="Qena, Egypt" />
-  </p>
-
-  <img src="https://komarev.com/ghpvc/?username=eslamyf&label=Profile%20Views&color=0284c7&style=flat-square" alt="Profile Views" />
+<!-- Visitor Counter -->
+<img src="https://komarev.com/ghpvc/?username=eslamyf&label=Profile%20Views&color=00ff41&style=for-the-badge" alt="Profile Views" />
 
 </div>
 
-<br/>
+---
 
-## ⚡ Highlights
+<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
 
-<table>
-  <tr>
-    <td align="center" width="25%">
-      <img src="assets/icons/graduation-cap.svg" height="32" alt="Education" /><br/>
-      <b>CS Student</b><br/>
-      <sub>Faculty of Computers &amp; Info<br/>South Valley University (2024–2028)</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="assets/icons/laptop-code.svg" height="32" alt="Tech Stack" /><br/>
-      <b>MEAN &amp; React</b><br/>
-      <sub>Full-stack web engineering<br/>from REST APIs to modern UI</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="assets/icons/award.svg" height="32" alt="Achievement" /><br/>
-      <b>95% at NTI</b><br/>
-      <sub>MEAN Stack Development Track<br/>Creativa DEY Initiative</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="assets/icons/chalkboard-user.svg" height="32" alt="Instructor" /><br/>
-      <b>Web Instructor</b><br/>
-      <sub>Hands-on mentoring<br/>at Support Web Program</sub>
-    </td>
-  </tr>
-</table>
+## 💫 About Me
 
-<br/>
+```javascript
+const eslam = {
+    name: "Eslam Yasser",
+    role: "Full-Stack Web Developer & Tech Instructor",
+    education: "Computer Science @ South Valley University (2024–2028)",
+    location: "Qena, Egypt 🇪🇬",
+    code: ["C++", "JavaScript", "TypeScript", "Python", "HTML5", "CSS3"],
+    technologies: {
+        frontEnd: ["Angular", "React", "Bootstrap", "Tailwind CSS"],
+        backEnd: ["Node.js", "Express.js", "REST APIs", "JWT Auth", "MVC"],
+        databases: ["MongoDB", "MySQL"],
+        tools: ["Git", "GitHub", "Postman", "VS Code"]
+    },
+    passion: "Clean Architecture & Scalable Web Systems ✨",
+    currentFocus: "High-performance full-stack web applications 🚀"
+};
+```
 
-## 🛠️ Skills &amp; Tech Stack
+🔭 Computer Science student at **Faculty of Computers and Information (FCI)** — South Valley University (2024–2028)  
+💻 Core focus on **MEAN Stack** (MongoDB, Express, Angular, Node.js) and **React** for end-to-end web engineering  
+👨‍🏫 **Web Development Instructor** at *Support Web Program*, delivering weekly practical sessions in HTML, CSS & JavaScript  
+🌱 Expanding my problem-solving skills in **Data Structures, Algorithms & Competitive Programming (ECPC)**  
+💬 Ask me about **Angular, React, Node.js, Express, MongoDB & C++**  
+⚡ Fun fact: **I turn complex CS concepts into clean, maintainable code 💻**
+
+---
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=angular,react,ts,js,nodejs,express,mongodb,cpp,python,bootstrap,tailwind,html,css,git,github,postman&perline=8" alt="Tech Stack Icons" />
+
+## 🎯 Currently Learning &amp; Exploring
+
+<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100">
+
 </div>
 
-<br/>
-
-<table>
+<table align="center">
   <tr>
-    <td width="20%"><b>Frontend</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />
-      <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-      <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+    <td align="center" width="140">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" width="65" height="65" alt="Angular" />
+      <br><b>Angular</b>
     </td>
-  </tr>
-  <tr>
-    <td><b>Backend &amp; APIs</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-      <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
-      <img src="https://img.shields.io/badge/REST_APIs-0284c7?style=for-the-badge" alt="REST APIs" />
-      <img src="https://img.shields.io/badge/JWT_Auth-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT" />
-      <img src="https://img.shields.io/badge/MVC-475569?style=for-the-badge" alt="MVC" />
+    <td align="center" width="140">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="65" height="65" alt="React" />
+      <br><b>React</b>
     </td>
-  </tr>
-  <tr>
-    <td><b>Databases</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-      <img src="https://img.shields.io/badge/SQL_Basics-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
-      <img src="https://img.shields.io/badge/ERD_Design-0ea5e9?style=for-the-badge" alt="Database Design" />
+    <td align="center" width="140">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="65" height="65" alt="Node.js" />
+      <br><b>Node.js</b>
     </td>
-  </tr>
-  <tr>
-    <td><b>Core &amp; Tools</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/C++_(OOP)-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/Data_Structures-10b981?style=for-the-badge" alt="Data Structures" />
-      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-      <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
+    <td align="center" width="140">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="65" height="65" alt="MongoDB" />
+      <br><b>MongoDB</b>
+    </td>
+    <td align="center" width="140">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="65" height="65" alt="C++ DS" />
+      <br><b>DS in C++</b>
+    </td>
+    <td align="center" width="140">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="65" height="65" alt="TypeScript" />
+      <br><b>TypeScript</b>
     </td>
   </tr>
 </table>
 
-<br/>
+---
+
+<div align="center">
+
+## 💻 Tech Stack
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+
+</div>
+
+### 🎨 Frontend Development
+<p>
+<img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" />
+<img src="https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
+<img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
+<img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/Bootstrap-%237952B3.svg?style=for-the-badge&logo=bootstrap&logoColor=white" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+</p>
+
+### ⚙️ Backend &amp; Database
+<p>
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/REST_APIs-0284c7?style=for-the-badge" />
+<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
+</p>
+
+### 🛠️ Programming Languages
+<p>
+<img src="https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
+<img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
+</p>
+
+### 🔧 Tools &amp; Workflow
+<p>
+<img src="https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+<img src="https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+</p>
+
+---
+
+<div align="center">
+
+## 📊 Skill Progress
+
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100">
+
+</div>
+
+```text
+HTML5 / CSS3 / Bootstrap   ████████████████████░░   95%  ▰▰▰▰▰▰▰▰▰▱
+JavaScript & TypeScript    ██████████████████░░░░   90%  ▰▰▰▰▰▰▰▰▰▱
+Angular Framework          ████████████████░░░░░░   85%  ▰▰▰▰▰▰▰▰▱▱
+React.js                   ████████████████░░░░░░   80%  ▰▰▰▰▰▰▰▰▱▱
+Node.js & Express.js       ████████████████░░░░░░   85%  ▰▰▰▰▰▰▰▰▱▱
+MongoDB & REST APIs        ██████████████████░░░░   90%  ▰▰▰▰▰▰▰▰▰▱
+C++ & Data Structures      ████████████████░░░░░░   80%  ▰▰▰▰▰▰▰▰▱▱
+Git & GitHub               ██████████████████░░░░   90%  ▰▰▰▰▰▰▰▰▰▱
+Responsive & UI Design     ████████████████████░░   95%  ▰▰▰▰▰▰▰▰▰▱
+```
+
+---
+
+<div align="center">
 
 ## 🚀 Featured Projects
 
-<p>High-impact, production-ready web applications with live deployments:</p>
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
 
-<table>
+</div>
+
+<table align="center">
   <tr>
     <td width="50%" valign="top">
+      <h3 align="center">🏡 Aqario Luxe</h3>
       <div align="center">
         <a href="https://aqario-luxe.vercel.app/" target="_blank">
-          <img src="assets/projects/aqario.jpg" alt="Aqario Luxe Screenshot" width="100%" />
+          <img src="assets/projects/aqario.jpg" alt="Aqario Luxe" width="100%" />
         </a>
-      </div>
-      <br/>
-      <div align="left">
-        <h3>🏡 <a href="https://aqario-luxe.vercel.app/">Aqario Luxe</a></h3>
-        <p>A full-stack property marketplace engineered with the MEAN stack, featuring intelligent catalog filtering, dynamic property listings, secure user authentication, and responsive UI architecture.</p>
-        <p><b>✨ Key Highlights:</b></p>
-        <ul>
-          <li>Structured MongoDB data models &amp; indexing</li>
-          <li>RESTful API with JWT authentication &amp; role guards</li>
-          <li>Component-driven Angular client with reactive forms</li>
-        </ul>
         <p>
-          <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white" alt="Angular" />
-          <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node" />
-          <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
-          <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
-          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TS" />
+          <strong>🔧 Angular • Node.js • Express.js • MongoDB</strong><br>
+          Comprehensive real estate marketplace featuring property catalog search, advanced filters, secure JWT authentication, and RESTful APIs.
         </p>
-        <div align="center">
-          <a href="https://aqario-luxe.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/🚀_Live_Demo-0284c7?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>&nbsp;
-          <a href="https://github.com/eslamyf/aqario-luxe-web" target="_blank"><img src="https://img.shields.io/badge/📂_Repository-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="Repo" /></a>
-        </div>
+        <p>
+          <a href="https://aqario-luxe.vercel.app/" target="_blank">
+            <img src="https://img.shields.io/badge/Live%20Demo-00ff41?style=for-the-badge&logo=vercel&logoColor=black" />
+          </a>
+          <a href="https://github.com/eslamyf/aqario-luxe-web" target="_blank">
+            <img src="https://img.shields.io/badge/View%20Code-100000?style=for-the-badge&logo=github&logoColor=white" />
+          </a>
+        </p>
       </div>
     </td>
     <td width="50%" valign="top">
+      <h3 align="center">⚡ Personal Portfolio</h3>
       <div align="center">
         <a href="https://eslam-yasser-portfolio.vercel.app/" target="_blank">
-          <img src="assets/projects/portfolio.jpg" alt="Portfolio Screenshot" width="100%" />
+          <img src="assets/projects/portfolio.jpg" alt="Personal Portfolio" width="100%" />
         </a>
-      </div>
-      <br/>
-      <div align="left">
-        <h3>⚡ <a href="https://eslam-yasser-portfolio.vercel.app/">Personal Portfolio</a></h3>
-        <p>A modern, high-performance developer portfolio built with React and Vite, showcasing engineering projects, interactive UI elements, and a clean dark aesthetic.</p>
-        <p><b>✨ Key Highlights:</b></p>
-        <ul>
-          <li>Ultra-fast Vite build tooling &amp; HMR</li>
-          <li>Modular component architecture with custom React hooks</li>
-          <li>Fluid responsive layouts &amp; accessible navigation</li>
-        </ul>
         <p>
-          <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-          <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
-          <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind" />
-          <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JS" />
+          <strong>🔧 React • Vite • Tailwind CSS • Modern UI</strong><br>
+          Modern, high-performance developer portfolio showcasing engineering projects, interactive UI elements, and technical experience.
         </p>
-        <div align="center">
-          <a href="https://eslam-yasser-portfolio.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/🚀_Live_Demo-0284c7?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>&nbsp;
-          <a href="https://github.com/eslamyf/eslam-yasser-portfolio" target="_blank"><img src="https://img.shields.io/badge/📂_Repository-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="Repo" /></a>
-        </div>
+        <p>
+          <a href="https://eslam-yasser-portfolio.vercel.app/" target="_blank">
+            <img src="https://img.shields.io/badge/Live%20Demo-00ff41?style=for-the-badge&logo=vercel&logoColor=black" />
+          </a>
+          <a href="https://github.com/eslamyf/eslam-yasser-portfolio" target="_blank">
+            <img src="https://img.shields.io/badge/View%20Code-100000?style=for-the-badge&logo=github&logoColor=white" />
+          </a>
+        </p>
       </div>
     </td>
   </tr>
 </table>
 
-<br/>
+<div align="center">
+  <a href="https://github.com/eslamyf?tab=repositories" target="_blank">
+    <img src="https://img.shields.io/badge/View%20All%20Projects-00ff41?style=for-the-badge&logo=github&logoColor=black" />
+  </a>
+</div>
 
-## 💼 Experience &amp; Leadership
+---
 
-<table>
+<div align="center">
+
+## 💼 Experience &amp; Volunteering
+
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
+
+</div>
+
+<table align="center">
   <tr>
     <td>
       <b>Web Development Instructor</b><br/>
@@ -198,7 +248,7 @@
   </tr>
   <tr>
     <td colspan="2">
-      Deliver weekly practical sessions in HTML, CSS, JavaScript, and core programming concepts for Computer Science students, turning theory into real-world hands-on projects and tracking student growth.
+      Deliver weekly practical sessions in HTML, CSS, JavaScript, and programming fundamentals for Computer Science students, turning theory into real-world hands-on projects and tracking student growth.
     </td>
   </tr>
   <tr>
@@ -230,55 +280,165 @@
       <b>Coordinator</b> &bull; <i>Students for Egypt (FCI)</i><br/>
       <b>Vice, Operations</b> &bull; <i>NTI Ambassadors Qena</i>
     </td>
-    <td align="right"><code>Campus Leadership</code></td>
+    <td align="right"><code>Campus Volunteering &amp; Leadership</code></td>
   </tr>
   <tr>
     <td colspan="2">
-      Led student activities, public relations, campus tech initiatives, and organized workshops and university events.
+      Started as PR member, promoted to Head of PR, then Coordinator. Leading student operations, organizing technical workshops, hackathons, and university community events.
     </td>
   </tr>
 </table>
 
-<br/>
+---
+
+<div align="center">
 
 ## 🏆 Certifications &amp; Honors
 
-| | Certification / Honor | Issuer | Date |
-|:---:|---|---|:---:|
-| 🏆 | **ICPC Egyptian Collegiate Programming Contest (ECPC) 2026 – Qualifications** | ICPC | Aug 2026 |
-| 🛰️ | **NASA International Space Apps Challenge** | NASA | Oct 2026 |
-| 🛡️ | **Cybersecurity Academy (Undergraduate Level)** | NTI &amp; EG-CERT | Jun 2025 |
-| 💡 | **InnovEgypt – Innovation &amp; Entrepreneurship Track** | TIEC | Aug 2026 |
-| 🧪 | **Startup Innovation Lab** | Creativa TIEC Qena | Jun 2026 |
-| 🐍 | **Python Programming Fundamentals** | Creativa TIEC Qena | Jul 2026 |
-| ⚙️ | **Learn C++ from Scratch** | Udemy | Sep 2025 |
-
-<br/>
-
-## 📈 GitHub Activity
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=eslamyf&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=f59e0b" alt="GitHub Streak" />
-  <br/><br/>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eslamyf/eslamyf/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/eslamyf/eslamyf/output/github-snake.svg" />
-    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/eslamyf/eslamyf/output/github-snake.svg" width="100%" />
-  </picture>
 </div>
 
-<br/>
+<table align="center">
+  <tr>
+    <th align="center">Icon</th>
+    <th align="left">Certification / Honor</th>
+    <th align="left">Organization</th>
+    <th align="center">Year</th>
+  </tr>
+  <tr>
+    <td align="center">🏆</td>
+    <td><b>ICPC Egyptian Collegiate Programming Contest (ECPC) 2026 – Qualifications</b></td>
+    <td>ICPC</td>
+    <td align="center">Aug 2026</td>
+  </tr>
+  <tr>
+    <td align="center">🛰️</td>
+    <td><b>NASA International Space Apps Challenge</b></td>
+    <td>NASA</td>
+    <td align="center">Oct 2026</td>
+  </tr>
+  <tr>
+    <td align="center">🛡️</td>
+    <td><b>Cybersecurity Academy (Undergraduate Level)</b></td>
+    <td>NTI &amp; EG-CERT</td>
+    <td align="center">Jun 2025</td>
+  </tr>
+  <tr>
+    <td align="center">💡</td>
+    <td><b>InnovEgypt – Innovation &amp; Entrepreneurship Track</b></td>
+    <td>TIEC</td>
+    <td align="center">Aug 2026</td>
+  </tr>
+  <tr>
+    <td align="center">🧪</td>
+    <td><b>Startup Innovation Lab</b></td>
+    <td>Creativa TIEC Qena</td>
+    <td align="center">Jun 2026</td>
+  </tr>
+  <tr>
+    <td align="center">🐍</td>
+    <td><b>Python Programming Fundamentals</b></td>
+    <td>Creativa TIEC Qena</td>
+    <td align="center">Jul 2026</td>
+  </tr>
+  <tr>
+    <td align="center">⚙️</td>
+    <td><b>Learn C++ from Scratch</b></td>
+    <td>Udemy</td>
+    <td align="center">Sep 2025</td>
+  </tr>
+</table>
 
-## 📬 Get In Touch
+---
 
 <div align="center">
-  <p><b>Interested in collaborating, hiring, or discussing a web project? Let's connect!</b></p>
-  <p>
-    <a href="mailto:eslam9076460@gmail.com"><img src="https://img.shields.io/badge/Email-eslam9076460%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>&nbsp;
-    <a href="https://www.linkedin.com/in/eslam-yasser-a57435353"><img src="https://img.shields.io/badge/LinkedIn-Eslam%20Yasser-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
-    <a href="https://eslam-yasser-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Live_Portfolio-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  </p>
-  <sub>Designed &amp; Built with care &bull; Qena, Egypt</sub>
-  <br/><br/>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:6366f1,100:0284c7&height=100&section=footer" width="100%" alt="Footer Wave" />
+
+## 📊 GitHub Statistics
+
+<img src="https://github-readme-streak-stats-eight.vercel.app/?user=eslamyf&theme=dark&background=0D1117&ring=00FF41&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=FFFFFF&hide_border=true" alt="GitHub Streak" />
+
+</div>
+
+---
+
+<div align="center">
+
+## 🐍 Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eslamyf/eslamyf/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/eslamyf/eslamyf/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/eslamyf/eslamyf/output/github-snake.svg" />
+</picture>
+
+</div>
+
+---
+
+<div align="center">
+
+## ✍️ Random Dev Quote
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
+
+</div>
+
+---
+
+<div align="center">
+
+## 💭 Fun Facts About Me
+
+<div align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJueGZ3bmZ3bmZ3bmZ3bmZ3bmZ3bmZ3bmZ3bmZ3bmZ3bmZ3JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/L1R1tvI9svkIWwpVYr/giphy.gif" width="200" />
+</div>
+
+</div>
+
+```yaml
+☕ Coffee & Code: Turning caffeinated ideas into clean web architecture
+🌙 Problem Solver: Passionate about competitive programming and algorithms
+🎯 Teaching & Sharing: Simplifying complex CS concepts for fellow students
+📚 Continuous Learner: Exploring modern frameworks from Angular & React to Node.js
+🎨 Clean Code Advocate: If it's not structured, readable, and scalable, it's not done
+🎮 Tech Enthusiast: From web development to cybersecurity & competitive contests
+```
+
+---
+
+<div align="center">
+
+## 💬 Let's Connect &amp; Collaborate!
+
+<div align="center">
+  <img src="https://media.giphy.com/media/66M6ZwJkTLYikvhrqZ/giphy.gif" width="400" alt="Debugging GIF"/>
+  <p><b>I'm always open to interesting conversations, internships, and collaboration opportunities!</b></p>
+</div>
+
+<p>
+  <a href="mailto:eslam9076460@gmail.com">
+    <img src="https://img.shields.io/badge/Email%20Me-00ff41?style=for-the-badge&logo=gmail&logoColor=black" />
+  </a>
+  <a href="https://www.linkedin.com/in/eslam-yasser-a57435353">
+    <img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://eslam-yasser-portfolio.vercel.app/">
+    <img src="https://img.shields.io/badge/Live%20Portfolio-00ff41?style=for-the-badge&logo=vercel&logoColor=black" />
+  </a>
+  <a href="https://github.com/eslamyf">
+    <img src="https://img.shields.io/badge/Follow%20on%20GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
+### 📫 Reach me at: **eslam9076460@gmail.com**
+
+</div>
+
+---
+
+<div align="center">
+
+### 💚 Thanks for visiting my profile! Have a great day! 💚
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=120&section=footer&animation=twinkling" />
+
 </div>
