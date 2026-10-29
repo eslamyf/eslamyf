@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="text-gradient" x1="0" x2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="glow-blue"><stop offset="0" stop-color="#0ea5e9" stop-opacity=".55"/><stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow-purple"><stop offset="0" stop-color="#6366f1" stop-opacity=".55"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow-green"><stop offset="0" stop-color="#10b981" stop-opacity=".4"/><stop offset="1" stop-color="#10b981" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".05"/>
+    </pattern>
+  </defs>
+  <style>
+    .hello { font: 500 20px monospace; fill: #cbd5e1; }
+    .name { font: 800 66px sans-serif; }
+    .line { font: 600 24px monospace; fill: #7dd3fc; opacity: 0; }
+    .l1 { animation: cycle 12s infinite; }
+    .l2 { animation: cycle 12s infinite 3s; }
+    .l3 { animation: cycle 12s infinite 6s; }
+    .l4 { animation: cycle 12s infinite 9s; }
+    @keyframes cycle {
+      0% { opacity: 0; transform: translateY(10px); }
+      4%, 22% { opacity: 1; transform: translateY(0); }
+      26%, 100% { opacity: 0; transform: translateY(-10px); }
+    }
+    .f1 { animation: float 6s ease-in-out infinite; }
+    .f2 { animation: float 8s ease-in-out infinite 1s; }
+    .f3 { animation: float 7s ease-in-out infinite 2s; }
+    @keyframes float { 50% { transform: translateY(-16px); } }
+    .glyph { font: 700 34px monospace; fill: #ffffff; fill-opacity: .12; }
+    .cursor { animation: blink 1s steps(2) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+  <rect width="1200" height="300" fill="url(#background)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  <circle class="f1" cx="180" cy="90" r="150" fill="url(#glow-blue)"/>
+  <circle class="f2" cx="1020" cy="220" r="170" fill="url(#glow-purple)"/>
+  <circle class="f3" cx="640" cy="290" r="130" fill="url(#glow-green)"/>
+  <text class="glyph f2" x="90" y="240">&lt;/&gt;</text>
+  <text class="glyph f1" x="1040" y="90">{ }</text>
+  <text class="glyph f3" x="940" y="270">=&gt;</text>
+  <text class="glyph f1" x="260" y="60">[ ]</text>
+  <text class="hello" x="600" y="78" text-anchor="middle">&gt; hello, world. I'm<tspan class="cursor">_</tspan></text>
+  <text class="name" x="600" y="150" text-anchor="middle" fill="url(#text-gradient)">Eslam Yasser</text>
+  <text class="line l1" x="600" y="205" text-anchor="middle">Full-Stack Engineer · MEAN Stack &amp; React</text>
+  <text class="line l2" x="600" y="205" text-anchor="middle">Crafting high-performance web systems</text>
+  <text class="line l3" x="600" y="205" text-anchor="middle">Web Development Instructor</text>
+  <text class="line l4" x="600" y="205" text-anchor="middle">Clean Architecture · Robust APIs</text>
+  <rect y="238" height="3" rx="2" fill="url(#text-gradient)">
+    <animate attributeName="x" values="600;450;600" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="width" values="0;300;0" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
